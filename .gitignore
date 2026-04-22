@@ -22,6 +22,7 @@
 !/tests/
 !/tools/
 !/.github/
+!/tasks.py
 
 # data/ level: Ignore everything except tracked subdirectories
 /data/*
