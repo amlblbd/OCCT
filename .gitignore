@@ -23,6 +23,7 @@
 !/tools/
 !/.github/
 !/tasks.py
+!/GIT_WORKFLOW.md
 
 # data/ level: Ignore everything except tracked subdirectories
 /data/*
