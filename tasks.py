@@ -77,7 +77,7 @@ def configure(c, build_type=None, install_prefix=None):
         --install-prefix: Installation directory (default: /usr/local)
     """
     bt = build_type or BUILD_TYPE
-    prefix = install_prefix or "/usr/local"
+    prefix = install_prefix or os.path.join(OCCT_ROOT, "install")
 
     os.makedirs(BUILD_DIR, exist_ok=True)
 
